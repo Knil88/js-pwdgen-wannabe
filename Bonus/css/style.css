@@ -11,19 +11,41 @@ body{
 }
 #title{
     margin-top: 50px;
-    font-size: 60px;
+    font-size: 30px;
     text-align: center;
-    text-transform: uppercase;
-    animation: waviy 1s infinite;
-     animation-delay: calc(.1s * var(--i));
+    
+    animation: 4s anim-popoutin ease infinite;
+     
   
 }
 
-@keyframes waviy {
-    0%,40%,100% {
-      transform: translateY(0)
+.pop-outin {
+    animation: 2s anim-popoutin ease  linear;
+  }
+
+  @keyframes anim-popoutin {
+    0% {
+      color: white;
+      transform: scale(0);
+      opacity: 0;
+      text-shadow: 0 0 0 rgba(0, 0, 0, 0);
     }
-    20% {
-      transform: translateY(-20px)
+    25% {
+      color: yellowgreen;
+      transform: scale(1.2);
+      opacity: 1;
+      text-shadow: 3px 10px 5px rgba(0, 0, 0, 0.5);
+    }
+    50% {
+      color: white;
+      transform: scale(1);
+      opacity: 1;
+      text-shadow: 1px 0 0 rgba(0, 0, 0, 0);
+    }
+    100% {
+      /* animate nothing to add pause at the end of animation */
+      transform: scale(1);
+      opacity: 1;
+      text-shadow: 1px 0 0 rgba(0, 0, 0, 0);
     }
   }

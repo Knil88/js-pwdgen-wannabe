@@ -2,7 +2,7 @@
 
 // chiedere nome
 
-let Yourname = prompt("Inserisci il tuo nome");
+let Yourname = prompt("Ciao , crea la tua password iniziando ad  inserire il tuo nome");
 
 // debug
 
@@ -10,7 +10,7 @@ console.log(Yourname);
 
 // chiedere il cognome
 
-let Surname = prompt("Inserisci il tuo cognome");
+let Surname = prompt("Adesso  inserisci il tuo cognome");
 
 // debug
 
