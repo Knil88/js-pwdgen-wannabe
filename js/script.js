@@ -28,6 +28,8 @@ console.log(Color);
 
 const numberPassword = 21
 
+console.log(21)
+
 // compilazione password
 
 let Password = Yourname + Surname + Color + numberPassword;
