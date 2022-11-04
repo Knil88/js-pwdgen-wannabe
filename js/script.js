@@ -38,7 +38,7 @@ console.log (Password);
 
 // Collegare html con generatore password
 
-document.getElementById("title").innerHTML = `Congratulazioni , la tua password è : ${Password}`;
+document.getElementById("title").innerHTML = `Congratulazioni  ${Yourname}, la tua password è : ${Password}`;
 
 
 
